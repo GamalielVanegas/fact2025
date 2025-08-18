@@ -1,0 +1,5 @@
+<odoo>
+  <data noupdate="1">
+    <record id="cat_trib_20" model="dte.sv.catalog"><field name="type">tributo</field><field name="code">20</field><field name="name">IVA</field></record>
+  </data>
+</odoo>

@@ -1,0 +1,11 @@
+<odoo>
+  <data noupdate="1">
+    <record id="cat_fp_01" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">01</field><field name="name">Billetes y monedas</field></record>
+    <record id="cat_fp_02" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">02</field><field name="name">Tarjeta</field></record>
+    <record id="cat_fp_03" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">03</field><field name="name">Cheque</field></record>
+    <record id="cat_fp_04" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">04</field><field name="name">Transferencia</field></record>
+    <record id="cat_fp_05" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">05</field><field name="name">Depósito</field></record>
+    <record id="cat_fp_06" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">06</field><field name="name">Billetera electrónica</field></record>
+    <record id="cat_fp_07" model="dte.sv.catalog"><field name="type">forma_pago</field><field name="code">07</field><field name="name">Otros</field></record>
+  </data>
+</odoo>

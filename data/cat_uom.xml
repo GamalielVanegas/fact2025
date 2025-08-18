@@ -1,0 +1,6 @@
+<odoo>
+  <data noupdate="1">
+    <record id="cat_uom_59" model="dte.sv.catalog"><field name="type">uom</field><field name="code">59</field><field name="name">Unidad</field></record>
+    <record id="cat_uom_99" model="dte.sv.catalog"><field name="type">uom</field><field name="code">99</field><field name="name">Otra</field></record>
+  </data>
+</odoo>

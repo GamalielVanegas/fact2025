@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+*.swp
+*.egg-info/
+dist/
+build/
+.odoo/
+.vscode/
+.idea/
+*.zip
+*.tar.gz

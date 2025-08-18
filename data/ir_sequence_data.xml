@@ -1,0 +1,10 @@
+<odoo>
+  <data noupdate="1">
+    <record id="seq_dte_control" model="ir.sequence">
+      <field name="name">DTE Número de Control</field>
+      <field name="code">dte.sv.control</field>
+      <field name="padding">15</field>
+      <field name="number_next">1</field>
+    </record>
+  </data>
+</odoo>

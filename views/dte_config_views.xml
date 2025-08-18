@@ -1,0 +1,45 @@
+<odoo>
+  <record id="res_config_settings_view_form_dte_sv" model="ir.ui.view">
+    <field name="name">res.config.settings.dte.sv</field>
+    <field name="model">res.config.settings</field>
+    <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//form" position="inside">
+        <div class="app_settings_block" data-key="dte_sv">
+          <h2>DTE El Salvador</h2>
+          <div class="row o_settings_container">
+            <div class="col-12 col-lg-6 o_setting_box">
+              <div class="o_setting_right_pane">
+                <group string="Firmador / Autenticación">
+                  <field name="dte_firmador_url" placeholder="http://host.docker.internal:8113"/>
+                  <field name="dte_api_user"/>
+                  <field name="dte_api_password" password="True"/>
+                  <field name="dte_key_pass" password="True"/>
+                  <field name="dte_env_url_prueba" placeholder="https://apitest.dtes.mh.gob.sv"/>
+                  <field name="dte_env_url_prod"/>
+                  <field name="dte_timeout"/>
+                </group>
+                <group string="Emisor">
+                  <field name="dte_emisor_nrc"/>
+                  <field name="dte_emisor_cod_actividad"/>
+                  <field name="dte_emisor_desc_actividad"/>
+                  <field name="dte_emisor_nombre_comercial"/>
+                  <field name="dte_emisor_tipo_establecimiento"/>
+                  <field name="dte_emisor_departamento"/>
+                  <field name="dte_emisor_municipio"/>
+                  <field name="dte_emisor_dir_complemento"/>
+                  <field name="dte_emisor_telefono"/>
+                  <field name="dte_emisor_correo"/>
+                </group>
+                <group string="Control y Ambiente">
+                  <field name="dte_control_serie" placeholder="00010001"/>
+                  <field name="dte_ambiente"/>
+                </group>
+              </div>
+            </div>
+          </div>
+        </div>
+      </xpath>
+    </field>
+  </record>
+</odoo>

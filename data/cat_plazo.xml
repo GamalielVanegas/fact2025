@@ -1,0 +1,7 @@
+<odoo>
+  <data noupdate="1">
+    <record id="cat_plazo_01" model="dte.sv.catalog"><field name="type">plazo</field><field name="code">01</field><field name="name">Días</field></record>
+    <record id="cat_plazo_02" model="dte.sv.catalog"><field name="type">plazo</field><field name="code">02</field><field name="name">Meses</field></record>
+    <record id="cat_plazo_03" model="dte.sv.catalog"><field name="type">plazo</field><field name="code">03</field><field name="name">Años</field></record>
+  </data>
+</odoo>
